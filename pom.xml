@@ -237,7 +237,7 @@
 
                     <!-- PMD -->
 		<plugin>
-		  <groupId>org.apache.maven.plugins</groupId>
+		  <groupId>org.apache.maven.plugin.war.WarMojo</groupId>
 		  <artifactId>maven-war-plugin</artifactId>
 		  <version>3.3.2</version>
 		</plugin>
