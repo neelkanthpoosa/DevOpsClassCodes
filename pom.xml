@@ -5,7 +5,7 @@
     <groupId>com.edurekademo.tutorial</groupId>
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
-    <version>2.0</version>
+    <version>3.3.2</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -168,6 +168,11 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+		<plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-war-plugin</artifactId>
+		  <version>3.3.2</version>
+		</plugin>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
@@ -236,11 +241,7 @@
                     <!--</plugin>-->
 
                     <!-- PMD -->
-		<plugin>
-		  <groupId>org.apache.maven.plugin.war.WarMojo</groupId>
-		  <artifactId>maven-war-plugin</artifactId>
-		  <version>3.3.2</version>
-		</plugin>
+
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
