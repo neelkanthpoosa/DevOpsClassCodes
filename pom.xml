@@ -236,6 +236,11 @@
                     <!--</plugin>-->
 
                     <!-- PMD -->
+		<plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-war-plugin</artifactId>
+		  <version>3.3.2</version>
+		</plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
@@ -487,11 +492,6 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
-		<plugin>
-		  <groupId>org.apache.maven.plugins</groupId>
-		  <artifactId>maven-war-plugin</artifactId>
-		  <version>3.3.2</version>
-		</plugin>
                 </plugins>
             </reporting>
         </profile>
