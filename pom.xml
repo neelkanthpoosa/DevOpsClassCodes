@@ -263,11 +263,11 @@
             <artifactId>checkstyle</artifactId>
             <version>8.18</version>
         </dependency>
-                            <dependency>
+<!--                             <dependency>
                                 <groupId>com.wakaleo.gameoflife</groupId>
                                 <artifactId>gameoflife-build</artifactId>
                                 <version>${project.version}</version>
-                            </dependency>
+                            </dependency> -->
                         </dependencies>
                         <configuration>
                             <configLocation>custom-checkstyle.xml</configLocation>
